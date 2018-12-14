@@ -285,7 +285,7 @@ static void ptp_print_mgmt_msg(netdissect_options *ndo, const u_char *bp, u_int 
 
 static void
 print_field(netdissect_options *ndo, const char *st, uint32_t flen,
-            const u_char *bp, uint *len, uint8_t hex)
+            const u_char *bp, u_int *len, uint8_t hex)
 {
     uint8_t u8_val;
     uint16_t u16_val;
