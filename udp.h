@@ -80,6 +80,12 @@ struct udphdr {
 #ifndef APPLETALK_ECHO
 #define APPLETALK_ECHO			204	/*XXX*/
 #endif
+#ifndef PTP_EVENT_PORT
+#define PTP_EVENT_PORT   319 /* IANA */
+#endif
+#ifndef PTP_GENERAL_PORT
+#define PTP_GENERAL_PORT   320 /* IANA */
+#endif
 #ifndef CISCO_AUTORP_PORT
 #define CISCO_AUTORP_PORT		496	/*XXX*/
 #endif
